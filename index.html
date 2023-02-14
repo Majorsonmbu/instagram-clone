@@ -1107,5 +1107,29 @@
         </div>
       </main>
     </div>
+
+
+    <!-- FIREBASE CONFIG -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyCcxbWJiz4hP8dlq188L3XFFwkr0RjoBJw",
+        authDomain: "instagram-clone-3bcc4.firebaseapp.com",
+        projectId: "instagram-clone-3bcc4",
+        storageBucket: "instagram-clone-3bcc4.appspot.com",
+        messagingSenderId: "691907019383",
+        appId: "1:691907019383:web:8e111820551c9864cefc72"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      console.log(app);
+    </script>
+
   </body>
 </html>
